@@ -7,4 +7,5 @@ def find_min_in_nested_arrays(src)
       new_src << src[count].min
       count += 1
     end
+    new_src
 end
